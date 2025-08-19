@@ -1,0 +1,14 @@
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.env
+# Data
+data/raw/*
+!data/raw/.gitkeep
+# OS/editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
