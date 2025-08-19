@@ -1,12 +1,12 @@
-
 import os, json
 from typing import Dict, Any, List
 from pydantic import BaseModel
 from openai import OpenAI
-from dotenv import load_dotenv 
+# The "from dotenv import load_dotenv" line has been removed.
 from .schemas import ExtractedDoc, FieldKV, QAReport
 
-load_dotenv()
+# The "load_dotenv()" line has been removed.
+# On Streamlit Cloud, secrets are loaded automatically into the environment.
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 def _expected_fields(doc_type: str) -> List[str]:
