@@ -80,40 +80,11 @@ agentic-doc-extractor/
 - **tests/**: tiny unit tests
 - **app.py**: Streamlit UI entry
 - **requirements.txt**: pip deps
-- **.env**: your secrets (not committed)
+- **.env**: Your secrets (not committed)
 
-### Git Tips (first time)
-```bash
-git init
-git add -A
-git commit -m "chore: init project"
-# Create an empty GitHub repo, then:
-git branch -M main
-git remote add origin https://github.com/<you>/agentic-doc-extractor.git
-git push -u origin main
-```
 
-**Regular commits** example:
-```
-feat: add OCR
-feat: router
-feat: OpenAI extraction
-feat: validation + confidence
-feat: Streamlit UI
-docs: README
-```
 
-### Invite reviewers on GitHub
-Repo → Settings → Collaborators → Add their email/username → Send invite.
-(Or keep repo public and share the link.)
 
-### Deploy to Streamlit Cloud (free)
-- Connect GitHub → New app → pick repo, branch, `app.py`
-- Set Secrets:
-```
-OPENAI_API_KEY="sk-..."
-```
-- Deploy.
 
-### Submission
-Send your Streamlit URL + GitHub link in email.
+
+
