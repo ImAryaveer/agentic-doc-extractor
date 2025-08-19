@@ -11,8 +11,7 @@ An AI-powered system that:
 ---
 
 ## 🚀 Live Demo
-🔗 Streamlit Cloud: [App Link](agentic-doc-extractor-rnaqsgqndngl9qwujav8f7
-.streamlit.app)  
+🔗 Streamlit Cloud: [App Link](agentic-doc-extractor-rnaqsgqndngl9qwujav8f7.streamlit.app)  
 💻 GitHub Repo: [agentic-doc-extractor](https://github.com/ImAryaveer/agentic-doc-extractor)  
 
 ---
