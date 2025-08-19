@@ -1,0 +1,68 @@
+{
+  "doc_type": "prescription",
+  "fields": [
+    {
+      "name": "PatientName",
+      "value": "Otis Drone",
+      "confidence": 0.9,
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.0,
+          0.0,
+          100.0,
+          20.0
+        ]
+      }
+    },
+    {
+      "name": "DoctorName",
+      "value": null,
+      "confidence": 0.0,
+      "source": null
+    },
+    {
+      "name": "Date",
+      "value": null,
+      "confidence": 0.0,
+      "source": null
+    },
+    {
+      "name": "MedicineList",
+      "value": "Qerrieon Aroreak Rr",
+      "confidence": 0.7,
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.0,
+          20.0,
+          100.0,
+          40.0
+        ]
+      }
+    },
+    {
+      "name": "DosageInstructions",
+      "value": "For Headache, Nervous",
+      "confidence": 0.8,
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.0,
+          40.0,
+          100.0,
+          60.0
+        ]
+      }
+    }
+  ],
+  "overall_confidence": 0.7000000000000001,
+  "qa": {
+    "passed_rules": [],
+    "failed_rules": [
+      "total_money",
+      "totals_match"
+    ],
+    "notes": "2 low-confidence fields"
+  }
+}

@@ -1,0 +1,91 @@
+{
+  "doc_type": "invoice",
+  "fields": [
+    {
+      "name": "InvoiceNumber",
+      "value": "MTFG6YJG0002",
+      "confidence": 0.9,
+      "source": {
+        "page": 1,
+        "bbox": [
+          50.0,
+          50.0,
+          200.0,
+          70.0
+        ]
+      }
+    },
+    {
+      "name": "InvoiceDate",
+      "value": "July 27, 2025",
+      "confidence": 0.9,
+      "source": {
+        "page": 1,
+        "bbox": [
+          50.0,
+          80.0,
+          200.0,
+          100.0
+        ]
+      }
+    },
+    {
+      "name": "VendorName",
+      "value": "Railway Corporation",
+      "confidence": 0.9,
+      "source": {
+        "page": 1,
+        "bbox": [
+          50.0,
+          120.0,
+          200.0,
+          140.0
+        ]
+      }
+    },
+    {
+      "name": "Subtotal",
+      "value": "$13.82",
+      "confidence": 0.9,
+      "source": {
+        "page": 1,
+        "bbox": [
+          50.0,
+          300.0,
+          200.0,
+          320.0
+        ]
+      }
+    },
+    {
+      "name": "Tax",
+      "value": null,
+      "confidence": 0.0,
+      "source": null
+    },
+    {
+      "name": "Total",
+      "value": "$8.82",
+      "confidence": 0.9,
+      "source": {
+        "page": 1,
+        "bbox": [
+          50.0,
+          340.0,
+          200.0,
+          360.0
+        ]
+      }
+    }
+  ],
+  "overall_confidence": 0.75,
+  "qa": {
+    "passed_rules": [],
+    "failed_rules": [
+      "total_money",
+      "InvoiceDate_date",
+      "totals_match"
+    ],
+    "notes": "1 low-confidence fields"
+  }
+}
