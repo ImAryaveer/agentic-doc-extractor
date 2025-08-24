@@ -12,3 +12,6 @@ data/raw/*
 *.swp
 .idea/
 .vscode/
+
+# EasyOCR
+.EasyOCR/
